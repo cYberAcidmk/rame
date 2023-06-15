@@ -1,0 +1,63 @@
+.header{
+    width: 1350px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(187, 187, 187);
+    box-shadow: 10px 10px 15px solid rgb(255, 255, 255);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left 0;
+
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 27px;
+    width: 180px;
+    height: 160px;
+}
+.navbar{
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.navbar li{
+    list-style: none;
+    padding: 40px;
+    margin-left: 50px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(252, 69, 130);
+    margin-left: -50;
+   font-family: vampires;
+   transition: 0.3s;
+}
+@font-face {
+    font-family: 'Vampires';
+    src: url('https://dl.dropbox.com/s/rad8evcb0wnvo27/Cosmik-Orchestra.ttf');
+}
+.navbar li a:hover {
+color: blueviolet;
+}
+
+
+.vaime{
+font-size: 16px;
+color: blue;
+cursor: pointer;
+transition: 0.5s;
+}
+.ra{
+    COLOR: rgb(252, 69, 130);
+}
+.vaime:hover{
+    color: rgb(255, 0, 0);
+}
+.vaime:active{
+    color: rgb(72, 255, 0);
+}
